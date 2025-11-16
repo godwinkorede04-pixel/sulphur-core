@@ -14,7 +14,9 @@ This documentation is aimed at the following audiences:
 
 ### Definition of Terms
 **Sulphur** is a library for creating **instanced GZDoom launchers**.
+
 **A GZDoom launcher** is a tool(either a program or script) that lets users organize, manage, and launch various mods and configuration setups for the GZDoom source port of classic Doom games.
+
 **UNIX Systems** are a family of multitasking, multi-user operating systems known for their flexibility, robustness and use in servers, workstations and modern devices.Examples are MacOS and Linux.
 
 
