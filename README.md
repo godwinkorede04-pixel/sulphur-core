@@ -1,14 +1,30 @@
 # Sulphur
 
+## Introduction
+### Learning Objectives
+At the end of this documentation, you should know the following:
+* What Sulphur is all about.
+* The features of the Sulphur Library.
+* The planned features of the Sulphur Library.
+ 
+### Target Audience
+This documentation is aimed at the following audiences:
+* Doom Developers
+* Speedrunners
+
+### Definition of Terms
 **Sulphur** is a library for creating **instanced GZDoom launchers**.
+**A GZDoom launcher** is a tool(either a program or script) that lets users organize, manage, and launch various mods and configuration setups for the GZDoom source port of classic Doom games.
+**UNIX Systems** are a family of multitasking, multi-user operating systems known for their flexibility, robustness and use in servers, workstations and modern devices.Examples are MacOS and Linux.
 
-All files saved by this library are stored under a `sulphur` directory to ensure instances are easily transferrable between implementations.
 
-> ⚠ Due to its use of the `xdg` crate, this library currently only compiles on **UNIX systems**.
+All files saved by Sulphur are stored under a `sulphur` directory to ensure instances are easily transferrable between implementations.
+> ⚠ It currently compiles only on **UNIX systems** die to its use of the `xdg` crate. 
 
 ---
 
-## Features
+## Features of Sulphur
+The following are the features Sulphur allows you to access:
 
 * Create new instances
 * Track playtime
@@ -23,6 +39,12 @@ All files saved by this library are stored under a `sulphur` directory to ensure
 ---
 
 ## Planned Features
+The following are the planned features to Sulphur:
 
 * Documentation
 * Global additional parameters
+
+## Summary
+Sulphur allows developers to create self contained GZDoom launchers where each mod setup is kept seperate and organised.
+It can only be compiled on UNIX Systems.
+
